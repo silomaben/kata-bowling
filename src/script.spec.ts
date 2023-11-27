@@ -23,7 +23,7 @@ describe('check correct result scores',()=>{
     it('should pass if score is 0 when all rolls are missed', async ()=>{
 
         const game = new TenPinGame('-- -- -- -- -- -- -- -- -- -- -- --');
-      expect(game.getScore()).toBe(150);
+      expect(game.getScore()).toBe(0);
     })
 
 })
